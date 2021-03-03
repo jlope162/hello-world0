@@ -1,9 +1,10 @@
 /*****
- * Edit this line to have your name.
+ * Jasmin Lopez
  ******/
 public class GitDemo {
     
     private double previousNumber;
+    private double reverseNum; //added in part 1
     
     public GitDemo() {
         previousNumber = 1;
@@ -14,6 +15,7 @@ public class GitDemo {
     *****/
     public double addNumber(double num) {
         System.out.print("Add num to previousNumber");
+        previousNumber = previousNumber + num;  //Added in part 2
         return 0;
     }
     
